@@ -1,0 +1,47 @@
+body{
+    background-image: url("bg2.jpg");
+}
+#text1{
+    width: 20%;
+    padding: 10px 0;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    outline: dotted rebeccapurple ;
+    background: transparent;
+    position: center;
+}
+#post1{
+    box-shadow: slateblue;
+     margin: 50px;
+     margin-left: 250px;
+}
+hr{
+    margin-left: 250px ;
+    margin-right: 250px;
+}
+#topbar{
+    overflow: hidden;
+    background-color: rgb(6, 1, 12);
+    
+  }
+  #topbar a{
+    display: block;
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #topbar a:hover{
+    background-color: #DDD;
+    color: #000;
+  }
+  #topbar a.active{
+    background-color: deepskyblue;
+    color: #FFF;
+  }
